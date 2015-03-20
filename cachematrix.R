@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## this function computes the inverse of the matrix created above, but firstly checks if the answer is not already
-## available in cache memory. If so, the computation is skipped and the answer is loaded from cache. If not, the inverse
+## available in cachememory. If so, the computation is skipped and the answer is loaded from cache. If not, the inverse
 ## is calculated and set in cache. 
 
 cachesolve <- function(x, ...) {
